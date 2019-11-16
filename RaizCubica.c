@@ -26,7 +26,7 @@ double raiz_cubica(double c){
 		
 	for(i = 0; i < 100; i++){
 		if(i == 0){
-			aprox = 100000000000000000; //qualquer valor até 10^16
+			aprox = 100000000000000000; //qualquer valor atÃ© 10^16
 
 			aprx3 = (aprox*aprox*aprox);
 			aprx2 = (aprox*aprox);

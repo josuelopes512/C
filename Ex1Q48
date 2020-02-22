@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main(){
+
+   int tempo_seg, hrs, hrs_seg, min, seg;
+
+   hrs_seg=3600;//horas em segundos
+
+   printf("Entre com o número de segundos: ");
+
+   scanf("%d", &tempo_seg);
+
+   hrs = (tempo_seg/hrs_seg); //resultado da hora
+
+   min = (tempo_seg -(hrs_seg*hrs))/60;
+
+   seg = (tempo_seg -(hrs_seg*hrs)-(min*60));
+
+   printf("%dh : %dm :%ds \n",hrs,min,segs);
+   
+   
+   return 0;
+}
